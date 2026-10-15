@@ -95,3 +95,47 @@ if solution:
 
 else:
     print("No solution")
+
+output
+
+
+========================================
+       A* - MANHATTAN DISTANCE
+========================================
+
+Initial State:
+1 2 3
+4 0 6
+7 5 8
+
+Goal State:
+1 2 3
+4 5 6
+7 8 0
+
+Step 0
+1 2 3
+4 0 6
+7 5 8
+
+g(n) = 0
+h(n) = 2
+f(n) = 2
+Step 1
+1 2 3
+4 5 6
+7 0 8
+
+g(n) = 1
+h(n) = 1
+f(n) = 2
+Step 2
+1 2 3
+4 5 6
+7 8 0
+
+g(n) = 2
+h(n) = 0
+f(n) = 2
+GOAL FOUND!
+Total Cost = 2
