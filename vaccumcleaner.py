@@ -1,7 +1,7 @@
 # Vacuum Cleaner Problem
 
 # Environment: A and B
-print("1WN24CS098")
+print("1WN24CS158")
 rooms = {"A": "Dirty", "B": "Dirty"}
 
 current_room = input("Enter starting room (A/B): ").upper()
@@ -28,3 +28,20 @@ while True:
     else:
         print("Action: Move Left")
         current_room = "A"
+
+output
+
+
+1WN24CS158
+Enter starting room (A/B): a
+
+Current Room: A
+Room Status: {'A': 'Dirty', 'B': 'Dirty'}
+Action: Suck
+Action: Move Right
+
+Current Room: B
+Room Status: {'A': 'Clean', 'B': 'Dirty'}
+Action: Suck
+
+All rooms are clean!
