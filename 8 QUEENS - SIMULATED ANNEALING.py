@@ -36,3 +36,24 @@ def simulated_annealing():
 
 simulated_annealing()
 
+
+output
+
+8 QUEENS - SIMULATED ANNEALING
+Step 0: State=[1, 1, 1, 1, 1, 1, 1, 1], h=28, T=100.00
+Move: Column 2 -> Row 5
+Step 1: State=[1, 5, 1, 1, 1, 1, 1, 1], h=22, T=95.00
+Move: Column 3 -> Row 8
+Step 2: State=[1, 5, 8, 1, 1, 1, 1, 1], h=16, T=90.25
+Move: Column 4 -> Row 6
+Step 3: State=[1, 5, 8, 6, 1, 1, 1, 1], h=11, T=85.74
+Move: Column 5 -> Row 3
+Step 4: State=[1, 5, 8, 6, 3, 1, 1, 1], h=8, T=81.45
+Move: Column 6 -> Row 7
+Step 5: State=[1, 5, 8, 6, 3, 7, 1, 1], h=4, T=77.38
+Move: Column 7 -> Row 2
+Step 6: State=[1, 5, 8, 6, 3, 7, 2, 1], h=2, T=73.51
+Move: Column 8 -> Row 4
+Final State=[1, 5, 8, 6, 3, 7, 2, 4], h=0
+Solution found!
+
