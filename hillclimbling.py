@@ -39,3 +39,18 @@ def hill_climbing():
             state = [random.randint(0, N - 1) for _ in range(N)]
 
 hill_climbing()
+
+output
+
+hillclimbling.py
+State: [3, 3, 3, 5, 3, 6, 7, 2] Cost: 10
+State: [3, 3, 0, 5, 3, 6, 7, 2] Cost: 5
+State: [3, 1, 0, 5, 3, 6, 7, 2] Cost: 3
+State: [4, 1, 0, 5, 3, 6, 7, 2] Cost: 2
+Local minimum reached. Restarting...
+State: [3, 7, 0, 0, 7, 1, 3, 1] Cost: 8
+State: [4, 7, 0, 0, 7, 1, 3, 1] Cost: 5
+State: [4, 6, 0, 0, 7, 1, 3, 1] Cost: 3
+State: [4, 6, 0, 2, 7, 1, 3, 1] Cost: 1
+State: [4, 6, 0, 2, 7, 5, 3, 1] Cost: 0
+Goal State Found!
