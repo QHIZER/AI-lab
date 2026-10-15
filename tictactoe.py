@@ -83,3 +83,63 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    |   |  
+      ---+---+---
+         |   |  
+      ---+---+---
+         |   |  
+
+Player X, enter row (1-3): 1
+Player X, enter column (1-3): 2
+
+
+         | X |  
+      ---+---+---
+         |   |  
+      ---+---+---
+         |   |  
+
+Player O, enter row (1-3): 2
+Player O, enter column (1-3): 2
+
+
+         | X |  
+      ---+---+---
+         | O |  
+      ---+---+---
+         |   |  
+
+Player X, enter row (1-3): 1
+Player X, enter column (1-3): 1
+
+
+       X | X |  
+      ---+---+---
+         | O |  
+      ---+---+---
+         |   |  
+
+Player O, enter row (1-3): 2
+Player O, enter column (1-3): 1
+
+
+       X | X |  
+      ---+---+---
+       O | O |  
+      ---+---+---
+         |   |  
+
+Player X, enter row (1-3): 1
+Player X, enter column (1-3): 3
+
+
+       X | X | X
+      ---+---+---
+       O | O |  
+      ---+---+---
+         |   |  
+
+===================================
+       PLAYER X WINS!
+===================================
