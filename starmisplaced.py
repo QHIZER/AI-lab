@@ -84,3 +84,71 @@ if solution:
 
 else:
     print("No solution")
+
+output
+
+
+========================================
+       A* - MISPLACED TILES
+========================================
+
+Initial State:
+2 8 3
+1 6 4
+7 0 5
+
+Goal State:
+1 2 3
+8 0 4
+7 6 5
+
+Step 0
+2 8 3
+1 6 4
+7 0 5
+
+g(n) = 0
+h(n) = 4
+f(n) = 4
+Step 1
+2 8 3
+1 0 4
+7 6 5
+
+g(n) = 1
+h(n) = 3
+f(n) = 4
+Step 2
+2 0 3
+1 8 4
+7 6 5
+
+g(n) = 2
+h(n) = 3
+f(n) = 5
+Step 3
+0 2 3
+1 8 4
+7 6 5
+
+g(n) = 3
+h(n) = 2
+f(n) = 5
+Step 4
+1 2 3
+0 8 4
+7 6 5
+
+g(n) = 4
+h(n) = 1
+f(n) = 5
+Step 5
+1 2 3
+8 0 4
+7 6 5
+
+g(n) = 5
+h(n) = 0
+f(n) = 5
+GOAL FOUND!
+Total Cost = 5
