@@ -27,3 +27,16 @@ kb = lambda m: (not m['P']) or m['Q']
 query = lambda m: m['Q']
 
 entails(kb, query, ['P', 'Q'])
+
+OUTPUT
+
+TRUTH TABLE ENUMERATION
+-------------------------------------------------------
+P       Q       P -> Q      Query Q     KB entails Q
+-------------------------------------------------------
+True    True    True        True        -
+True    False   False       False       -
+False   True    True        True        -
+False   False   True        False       No
+
+Result: KB does not entail Q
